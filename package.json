@@ -1,0 +1,50 @@
+{
+  "name": "rans0000.github.io",
+  "version": "0.0.1",
+  "description": "personal website of Ranjith Raghavan",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --optimize-minimize",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rans0000/rans0000.github.io.git"
+  },
+  "keywords": [
+    "Ranjith",
+    "Raghavan",
+    "UI/UX",
+    "Front-end",
+    "Developer"
+  ],
+  "author": "rans0000@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rans0000/rans0000.github.io/issues"
+  },
+  "homepage": "https://github.com/rans0000/rans0000.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "node-sass": "^4.14.1",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
