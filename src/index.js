@@ -9,4 +9,4 @@ function component() {
     return element;
 }
 
-document.getElementById("wrapper-all").appendChild(component());
+// document.getElementById("wrapper-all").appendChild(component());
